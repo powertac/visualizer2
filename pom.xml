@@ -7,6 +7,7 @@
 
     <artifactId>visualizer2</artifactId>
     <packaging>war</packaging>
+    <version>1.4.0-SNAPSHOT</version>
 
     <name>Power TAC Visualizer v2</name>
     <url>https://github.com/powertac/visualizer2/</url>
@@ -15,7 +16,7 @@
     <parent>
         <groupId>org.powertac</groupId>
         <artifactId>powertac-server</artifactId>
-        <version>1.4.0-SNAPSHOT</version>
+        <version>1.4.1</version>
     </parent>
 
     <prerequisites>
@@ -141,12 +142,12 @@
         <dependency>
             <groupId>org.powertac</groupId>
             <artifactId>logtool-core</artifactId>
-            <version>${powertac-server.version}</version>
+            <version>1.4.1</version>
         </dependency>
         <dependency>
             <groupId>org.powertac</groupId>
             <artifactId>server-main</artifactId>
-            <version>${powertac-server.version}</version>
+            <version>1.4.1</version>
         </dependency>
 
         <dependency>
