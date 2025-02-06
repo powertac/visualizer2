@@ -1,0 +1,11 @@
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/FileResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/service/UserServiceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/AuditResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/TestUtil.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/UserResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/GraphResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/AccountResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/GameResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/ChartResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/web/rest/ViewResourceIntTest.java
+/home/jcollins/development/powertac/powertac-server/visualizer2/src/test/java/org/powertac/visualizer/security/SecurityUtilsUnitTest.java

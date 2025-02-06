@@ -1,0 +1,205 @@
+1500 INFO  service.UserServiceIntTest: Starting UserServiceIntTest using Java 11.0.19 on cherry with PID 1183189 (started by jcollins in /home/jcollins/development/powertac/powertac-server/visualizer2)
+1505 DEBUG service.UserServiceIntTest: Running with Spring Boot v2.6.6, Spring v5.3.20
+1506 INFO  service.UserServiceIntTest: No active profile set, falling back to 1 default profile: "default"
+3061 DEBUG config.MetricsConfiguration: Registering JVM gauges
+3069 DEBUG config.MetricsConfiguration: Monitoring the datasource
+3354 DEBUG config.DatabaseConfiguration: Configuring Liquibase
+3360 DEBUG liquibase.AsyncSpringLiquibase: Starting Liquibase synchronously
+4518 DEBUG liquibase.AsyncSpringLiquibase: Liquibase has updated your database in 1156 ms
+6731 DEBUG service_ptac.VisualizerService: No mode provided, falling back to 'research'
+6740 INFO  service_ptac.MessageDispatcher: Ready to initialize 1 objects
+6744 INFO  service_ptac.MessageDispatcher: MessageHandler has 22 methods
+6745 INFO  service_ptac.MessageDispatcher: initialize
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6745 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: handleMessage
+6746 INFO  service_ptac.MessageDispatcher: wait
+6746 INFO  service_ptac.MessageDispatcher: wait
+6746 INFO  service_ptac.MessageDispatcher: wait
+6746 INFO  service_ptac.MessageDispatcher: equals
+6746 INFO  service_ptac.MessageDispatcher: toString
+6746 INFO  service_ptac.MessageDispatcher: hashCode
+6746 INFO  service_ptac.MessageDispatcher: getClass
+6746 INFO  service_ptac.MessageDispatcher: notify
+6746 INFO  service_ptac.MessageDispatcher: notifyAll
+6750 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(TariffSpecification)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffSpecification
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(TariffTransaction)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffTransaction
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(CashPosition)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for CashPosition
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(TariffRevoke)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffRevoke
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(MarketTransaction)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for MarketTransaction
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(CustomerBootstrapData)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for CustomerBootstrapData
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(Competition)
+6752 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for Competition
+6752 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(SimPause)
+6753 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimPause
+6753 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(SimResume)
+6753 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimResume
+6753 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(SimStart)
+6753 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimStart
+6753 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(SimEnd)
+6753 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimEnd
+6753 INFO  service_ptac.MessageDispatcher: Register MessageHandler.handleMessage(TimeslotUpdate)
+6753 INFO  service_ptac.MessageDispatcher: Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TimeslotUpdate
+7428 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7428 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7428 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/app/**/*.{js,html}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/app/**/*.{js,html}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/app/**/*.{js,html}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/bower_components/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/bower_components/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/bower_components/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/i18n/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/i18n/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/i18n/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/content/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/content/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/content/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/test/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/test/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/test/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+7429 WARN  builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+8165 INFO  service.UserServiceIntTest: Started UserServiceIntTest in 6.957 seconds (JVM running for 8.177)
+8442 DEBUG service.UserService: Deleting token 2222-2222
+8620 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.saveAccount(org.powertac.visualizer.service.dto.UserDTO): [Field error in object 'userDTO' on field 'login': rejected value [funky-log!n]; codes [Pattern.userDTO.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8620 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.saveAccount(org.powertac.visualizer.service.dto.UserDTO): [Field error in object 'userDTO' on field 'login': rejected value [funky-log!n]; codes [Pattern.userDTO.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8620 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.saveAccount(org.powertac.visualizer.service.dto.UserDTO): [Field error in object 'userDTO' on field 'login': rejected value [funky-log!n]; codes [Pattern.userDTO.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8647 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'login': rejected value [funky-log!n]; codes [Pattern.managedUserVM.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8647 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'login': rejected value [funky-log!n]; codes [Pattern.managedUserVM.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8647 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'login': rejected value [funky-log!n]; codes [Pattern.managedUserVM.login,Pattern.login,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.login,login]; arguments []; default message [login],[Ljavax.validation.constraints.Pattern$Flag;@1b3b95e8,^[_'.@A-Za-z0-9-]*$]; default message [must match "^[_'.@A-Za-z0-9-]*$"]] ]
+8672 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'password': rejected value [123]; codes [Size.managedUserVM.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.password,password]; arguments []; default message [password],100,4]; default message [size must be between 4 and 100]] ]
+8672 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'password': rejected value [123]; codes [Size.managedUserVM.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.password,password]; arguments []; default message [password],100,4]; default message [size must be between 4 and 100]] ]
+8672 WARN  support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> org.powertac.visualizer.web.rest.AccountResource.registerAccount(org.powertac.visualizer.web.rest.vm.ManagedUserVM): [Field error in object 'managedUserVM' on field 'password': rejected value [123]; codes [Size.managedUserVM.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [managedUserVM.password,password]; arguments []; default message [password],100,4]; default message [size must be between 4 and 100]] ]
+8796 DEBUG service.UserService: Created Information for User: User{login='badguy', firstName='Bad', lastName='Guy', langKey='en'}
+8914 DEBUG service.UserService: Created Information for User: User{login='alice', firstName='Alice', lastName='Something', langKey='en'}
+8934 DEBUG rest.AccountResource: REST request to check if the current user is authenticated
+9013 DEBUG service.UserService: Created Information for User: User{login='joe', firstName='Joe', lastName='Shmoe', langKey='en'}
+9027 DEBUG rest.AccountResource: REST request to check if the current user is authenticated
+9177 DEBUG rest.ChartResource: REST request to get Chart : 9223372036854775807
+9180 DEBUG service.ChartService: Request to get Chart : 9223372036854775807
+9245 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Chart> org.powertac.visualizer.web.rest.ChartResource.createChart(org.powertac.visualizer.domain.Chart) throws java.net.URISyntaxException: [Field error in object 'chart' on field 'shared': rejected value [null]; codes [NotNull.chart.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [chart.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+9284 DEBUG service.ChartService: Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9288 DEBUG rest.ChartResource: REST request to delete Chart : 1
+9288 DEBUG service.ChartService: Request to get Chart : 1
+9289 DEBUG service.ChartService: Request to delete Chart : Chart{id=1, name='AAAAAAAAAA', shared='false'}
+9322 DEBUG rest.ChartResource: REST request to get a page of Charts
+9322 DEBUG service.ChartService: Request to get all Charts
+9349 DEBUG service.ChartService: Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9355 DEBUG rest.ChartResource: REST request to update Chart : Chart{id=3, name='BBBBBBBBBB', shared='true'}
+9355 DEBUG service.ChartService: Request to save Chart : Chart{id=3, name='BBBBBBBBBB', shared='true'}
+9385 DEBUG rest.ChartResource: REST request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9388 DEBUG service.ChartService: Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9415 DEBUG rest.ChartResource: REST request to update Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9415 DEBUG rest.ChartResource: REST request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9416 DEBUG service.ChartService: Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+9463 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Chart> org.powertac.visualizer.web.rest.ChartResource.createChart(org.powertac.visualizer.domain.Chart) throws java.net.URISyntaxException with 2 errors: [Field error in object 'chart' on field 'name': rejected value [null]; codes [NotNull.chart.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [chart.name,name]; arguments []; default message [name]]; default message [must not be null]] [Field error in object 'chart' on field 'shared': rejected value [null]; codes [NotNull.chart.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [chart.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+9490 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Chart> org.powertac.visualizer.web.rest.ChartResource.createChart(org.powertac.visualizer.domain.Chart) throws java.net.URISyntaxException: [Field error in object 'chart' on field 'name': rejected value [null]; codes [NotNull.chart.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [chart.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+9514 DEBUG rest.ChartResource: REST request to get Chart : 6
+9514 DEBUG service.ChartService: Request to get Chart : 6
+9568 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.File> org.powertac.visualizer.web.rest.FileResource.createFile(org.powertac.visualizer.domain.File) throws java.net.URISyntaxException: [Field error in object 'file' on field 'shared': rejected value [null]; codes [NotNull.file.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+9593 DEBUG rest.FileResource: REST request to get a page of Files
+9595 DEBUG service.FileService: Request to get all Files
+9620 DEBUG service.FileService: Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9626 DEBUG rest.FileResource: REST request to update File : File{id=2, type='STATE', name='BBBBBBBBBB', shared='true'}
+9626 DEBUG service.FileService: Request to save File : File{id=2, type='STATE', name='BBBBBBBBBB', shared='true'}
+9654 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.File> org.powertac.visualizer.web.rest.FileResource.createFile(org.powertac.visualizer.domain.File) throws java.net.URISyntaxException with 3 errors: [Field error in object 'file' on field 'name': rejected value [null]; codes [NotNull.file.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.name,name]; arguments []; default message [name]]; default message [must not be null]] [Field error in object 'file' on field 'type': rejected value [null]; codes [NotNull.file.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.FileType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.type,type]; arguments []; default message [type]]; default message [must not be null]] [Field error in object 'file' on field 'shared': rejected value [null]; codes [NotNull.file.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+9679 DEBUG rest.FileResource: REST request to get File : 3
+9679 DEBUG service.FileService: Request to get File : 3
+9720 DEBUG rest.FileResource: REST request to get File : 9223372036854775807
+9720 DEBUG service.FileService: Request to get File : 9223372036854775807
+9746 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.File> org.powertac.visualizer.web.rest.FileResource.createFile(org.powertac.visualizer.domain.File) throws java.net.URISyntaxException: [Field error in object 'file' on field 'type': rejected value [null]; codes [NotNull.file.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.FileType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.type,type]; arguments []; default message [type]]; default message [must not be null]] 
+9771 DEBUG rest.FileResource: REST request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9772 DEBUG service.FileService: Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9802 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.File> org.powertac.visualizer.web.rest.FileResource.createFile(org.powertac.visualizer.domain.File) throws java.net.URISyntaxException: [Field error in object 'file' on field 'name': rejected value [null]; codes [NotNull.file.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [file.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+9836 DEBUG service.FileService: Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9839 DEBUG rest.FileResource: REST request to delete File : 5
+9840 DEBUG service.FileService: Request to get File : 5
+9840 DEBUG service.FileService: Request to delete File : File{id=5, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9866 DEBUG rest.FileResource: REST request to update File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9867 DEBUG rest.FileResource: REST request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9867 DEBUG service.FileService: Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+9932 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Game> org.powertac.visualizer.web.rest.GameResource.createGame(org.powertac.visualizer.domain.Game) throws java.net.URISyntaxException: [Field error in object 'game' on field 'shared': rejected value [null]; codes [NotNull.game.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+9957 DEBUG rest.GameResource: REST request to get a page of Games
+9960 DEBUG service.GameService: Request to get all Games
+10004 DEBUG service.GameService: Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+10011 DEBUG rest.GameResource: REST request to update Game : Game{id=2, type='SIM', name='BBBBBBBBBB', shared='true', date='2023-09-25T15:42:35Z[UTC]', brokers='BBBBBBBBBB'}
+10011 DEBUG service.GameService: Request to save Game : Game{id=2, type='SIM', name='BBBBBBBBBB', shared='true', date='2023-09-25T15:42:35Z[UTC]', brokers='BBBBBBBBBB'}
+10040 DEBUG rest.GameResource: REST request to get Game : 3
+10040 DEBUG service.GameService: Request to get Game : 3
+10070 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Game> org.powertac.visualizer.web.rest.GameResource.createGame(org.powertac.visualizer.domain.Game) throws java.net.URISyntaxException with 3 errors: [Field error in object 'game' on field 'name': rejected value [null]; codes [NotNull.game.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.name,name]; arguments []; default message [name]]; default message [must not be null]] [Field error in object 'game' on field 'type': rejected value [null]; codes [NotNull.game.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.GameType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.type,type]; arguments []; default message [type]]; default message [must not be null]] [Field error in object 'game' on field 'shared': rejected value [null]; codes [NotNull.game.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+10095 DEBUG rest.GameResource: REST request to get Game : 9223372036854775807
+10095 DEBUG service.GameService: Request to get Game : 9223372036854775807
+10124 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Game> org.powertac.visualizer.web.rest.GameResource.createGame(org.powertac.visualizer.domain.Game) throws java.net.URISyntaxException: [Field error in object 'game' on field 'type': rejected value [null]; codes [NotNull.game.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.GameType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.type,type]; arguments []; default message [type]]; default message [must not be null]] 
+10152 DEBUG rest.GameResource: REST request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+10153 DEBUG service.GameService: Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+10183 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Game> org.powertac.visualizer.web.rest.GameResource.createGame(org.powertac.visualizer.domain.Game) throws java.net.URISyntaxException: [Field error in object 'game' on field 'name': rejected value [null]; codes [NotNull.game.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [game.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+10206 DEBUG service.GameService: Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+10209 DEBUG rest.GameResource: REST request to delete Game : 5
+10210 DEBUG service.GameService: Request to get Game : 5
+10210 DEBUG service.GameService: Request to delete Game : Game{id=5, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+10237 DEBUG rest.GameResource: REST request to update Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+10237 DEBUG rest.GameResource: REST request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+10238 DEBUG service.GameService: Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+10266 DEBUG rest.GraphResource: REST request to get Graph : 9223372036854775807
+10268 DEBUG service.GraphService: Request to get Graph : 9223372036854775807
+10317 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Graph> org.powertac.visualizer.web.rest.GraphResource.createGraph(org.powertac.visualizer.domain.Graph) throws java.net.URISyntaxException: [Field error in object 'graph' on field 'shared': rejected value [null]; codes [NotNull.graph.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+10341 DEBUG service.GraphService: Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10344 DEBUG rest.GraphResource: REST request to delete Graph : 1
+10344 DEBUG service.GraphService: Request to get Graph : 1
+10345 DEBUG service.GraphService: Request to delete Graph : Graph{id=1, name='AAAAAAAAAA', type='LINE', shared='false'}
+10371 DEBUG rest.GraphResource: REST request to get a page of Graphs
+10371 DEBUG service.GraphService: Request to get all Graphs
+10395 DEBUG service.GraphService: Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10400 DEBUG rest.GraphResource: REST request to update Graph : Graph{id=3, name='BBBBBBBBBB', type='BAR', shared='true'}
+10400 DEBUG service.GraphService: Request to save Graph : Graph{id=3, name='BBBBBBBBBB', type='BAR', shared='true'}
+10427 DEBUG rest.GraphResource: REST request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10428 DEBUG service.GraphService: Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10455 DEBUG rest.GraphResource: REST request to update Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10455 DEBUG rest.GraphResource: REST request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10456 DEBUG service.GraphService: Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+10484 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Graph> org.powertac.visualizer.web.rest.GraphResource.createGraph(org.powertac.visualizer.domain.Graph) throws java.net.URISyntaxException with 3 errors: [Field error in object 'graph' on field 'type': rejected value [null]; codes [NotNull.graph.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.GraphType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.type,type]; arguments []; default message [type]]; default message [must not be null]] [Field error in object 'graph' on field 'shared': rejected value [null]; codes [NotNull.graph.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] [Field error in object 'graph' on field 'name': rejected value [null]; codes [NotNull.graph.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+10510 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Graph> org.powertac.visualizer.web.rest.GraphResource.createGraph(org.powertac.visualizer.domain.Graph) throws java.net.URISyntaxException: [Field error in object 'graph' on field 'type': rejected value [null]; codes [NotNull.graph.type,NotNull.type,NotNull.org.powertac.visualizer.domain.enumeration.GraphType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.type,type]; arguments []; default message [type]]; default message [must not be null]] 
+10537 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.Graph> org.powertac.visualizer.web.rest.GraphResource.createGraph(org.powertac.visualizer.domain.Graph) throws java.net.URISyntaxException: [Field error in object 'graph' on field 'name': rejected value [null]; codes [NotNull.graph.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [graph.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+10561 DEBUG rest.GraphResource: REST request to get Graph : 6
+10561 DEBUG service.GraphService: Request to get Graph : 6
+10577 DEBUG rest.UserResource: REST request to get User : unknown
+10593 DEBUG rest.UserResource: REST request to get User : admin
+10643 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.View> org.powertac.visualizer.web.rest.ViewResource.createView(org.powertac.visualizer.domain.View) throws java.net.URISyntaxException: [Field error in object 'view' on field 'graphs': rejected value [null]; codes [NotNull.view.graphs,NotNull.graphs,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.graphs,graphs]; arguments []; default message [graphs]]; default message [must not be null]] 
+10670 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.View> org.powertac.visualizer.web.rest.ViewResource.createView(org.powertac.visualizer.domain.View) throws java.net.URISyntaxException: [Field error in object 'view' on field 'shared': rejected value [null]; codes [NotNull.view.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] 
+10695 DEBUG rest.ViewResource: REST request to get a page of Views
+10697 DEBUG service.ViewService: Request to get all Views
+10720 DEBUG service.ViewService: Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+10725 DEBUG rest.ViewResource: REST request to update View : View{id=2, name='B', graphs='2', shared='true'}
+10725 DEBUG service.ViewService: Request to save View : View{id=2, name='B', graphs='2', shared='true'}
+10749 DEBUG rest.ViewResource: REST request to get View : 3
+10749 DEBUG service.ViewService: Request to get View : 3
+10772 DEBUG rest.ViewResource: REST request to get View : 9223372036854775807
+10772 DEBUG service.ViewService: Request to get View : 9223372036854775807
+10797 DEBUG rest.ViewResource: REST request to save View : View{id=null, name='A', graphs='1', shared='false'}
+10798 DEBUG service.ViewService: Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+10823 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.View> org.powertac.visualizer.web.rest.ViewResource.createView(org.powertac.visualizer.domain.View) throws java.net.URISyntaxException with 3 errors: [Field error in object 'view' on field 'shared': rejected value [null]; codes [NotNull.view.shared,NotNull.shared,NotNull.java.lang.Boolean,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.shared,shared]; arguments []; default message [shared]]; default message [must not be null]] [Field error in object 'view' on field 'graphs': rejected value [null]; codes [NotNull.view.graphs,NotNull.graphs,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.graphs,graphs]; arguments []; default message [graphs]]; default message [must not be null]] [Field error in object 'view' on field 'name': rejected value [null]; codes [NotNull.view.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+10848 WARN  common.AdviceTraits: Bad Request: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.powertac.visualizer.domain.View> org.powertac.visualizer.web.rest.ViewResource.createView(org.powertac.visualizer.domain.View) throws java.net.URISyntaxException: [Field error in object 'view' on field 'name': rejected value [null]; codes [NotNull.view.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [view.name,name]; arguments []; default message [name]]; default message [must not be null]] 
+10868 DEBUG service.ViewService: Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+10871 DEBUG rest.ViewResource: REST request to delete View : 5
+10871 DEBUG service.ViewService: Request to get View : 5
+10871 DEBUG service.ViewService: Request to delete View : View{id=5, name='A', graphs='1', shared='false'}
+10897 DEBUG rest.ViewResource: REST request to update View : View{id=null, name='A', graphs='1', shared='false'}
+10897 DEBUG rest.ViewResource: REST request to save View : View{id=null, name='A', graphs='1', shared='false'}
+10897 DEBUG service.ViewService: Request to save View : View{id=null, name='A', graphs='1', shared='false'}

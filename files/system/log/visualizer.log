@@ -1,0 +1,156 @@
+2023-09-25 10:42:27.371  INFO 1183189 --- [           main]o.p.v.s.UserServiceIntTest               : Starting UserServiceIntTest using Java 11.0.19 on cherry with PID 1183189 (started by jcollins in /home/jcollins/development/powertac/powertac-server/visualizer2)
+2023-09-25 10:42:27.376 DEBUG 1183189 --- [           main]o.p.v.s.UserServiceIntTest               : Running with Spring Boot v2.6.6, Spring v5.3.20
+2023-09-25 10:42:27.377  INFO 1183189 --- [           main]o.p.v.s.UserServiceIntTest               : No active profile set, falling back to 1 default profile: "default"
+2023-09-25 10:42:28.932 DEBUG 1183189 --- [           main]o.p.v.c.MetricsConfiguration             : Registering JVM gauges
+2023-09-25 10:42:28.940 DEBUG 1183189 --- [           main]o.p.v.c.MetricsConfiguration             : Monitoring the datasource
+2023-09-25 10:42:29.225 DEBUG 1183189 --- [           main]o.p.v.c.DatabaseConfiguration            : Configuring Liquibase
+2023-09-25 10:42:29.231 DEBUG 1183189 --- [           main]i.g.j.c.l.AsyncSpringLiquibase           : Starting Liquibase synchronously
+2023-09-25 10:42:30.389 DEBUG 1183189 --- [           main]i.g.j.c.l.AsyncSpringLiquibase           : Liquibase has updated your database in 1156 ms
+2023-09-25 10:42:32.602 DEBUG 1183189 --- [           main]o.p.v.s.VisualizerService                : No mode provided, falling back to 'research'
+2023-09-25 10:42:32.611  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Ready to initialize 1 objects
+2023-09-25 10:42:32.615  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : MessageHandler has 22 methods
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : initialize
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.616  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : handleMessage
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : wait
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : wait
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : wait
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : equals
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : toString
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : hashCode
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : getClass
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : notify
+2023-09-25 10:42:32.617  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : notifyAll
+2023-09-25 10:42:32.621  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(TariffSpecification)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffSpecification
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(TariffTransaction)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffTransaction
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(CashPosition)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for CashPosition
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(TariffRevoke)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TariffRevoke
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(MarketTransaction)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for MarketTransaction
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(CustomerBootstrapData)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for CustomerBootstrapData
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(Competition)
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for Competition
+2023-09-25 10:42:32.623  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(SimPause)
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimPause
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(SimResume)
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimResume
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(SimStart)
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimStart
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(SimEnd)
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for SimEnd
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Register MessageHandler.handleMessage(TimeslotUpdate)
+2023-09-25 10:42:32.624  INFO 1183189 --- [           main]o.p.v.s.MessageDispatcher                : Registering org.powertac.visualizer.service_ptac.MessageHandler@c9dcfcd for TimeslotUpdate
+2023-09-25 10:42:34.036  INFO 1183189 --- [           main]o.p.v.s.UserServiceIntTest               : Started UserServiceIntTest in 6.957 seconds (JVM running for 8.177)
+2023-09-25 10:42:34.313 DEBUG 1183189 --- [           main]o.p.v.s.UserService                      : Deleting token 2222-2222
+2023-09-25 10:42:34.667 DEBUG 1183189 --- [           main]o.p.v.s.UserService                      : Created Information for User: User{login='badguy', firstName='Bad', lastName='Guy', langKey='en'}
+2023-09-25 10:42:34.785 DEBUG 1183189 --- [           main]o.p.v.s.UserService                      : Created Information for User: User{login='alice', firstName='Alice', lastName='Something', langKey='en'}
+2023-09-25 10:42:34.805 DEBUG 1183189 --- [           main]o.p.v.w.r.AccountResource                : REST request to check if the current user is authenticated
+2023-09-25 10:42:34.884 DEBUG 1183189 --- [           main]o.p.v.s.UserService                      : Created Information for User: User{login='joe', firstName='Joe', lastName='Shmoe', langKey='en'}
+2023-09-25 10:42:34.898 DEBUG 1183189 --- [           main]o.p.v.w.r.AccountResource                : REST request to check if the current user is authenticated
+2023-09-25 10:42:35.048 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to get Chart : 9223372036854775807
+2023-09-25 10:42:35.051 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to get Chart : 9223372036854775807
+2023-09-25 10:42:35.155 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.159 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to delete Chart : 1
+2023-09-25 10:42:35.159 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to get Chart : 1
+2023-09-25 10:42:35.160 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to delete Chart : Chart{id=1, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.193 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to get a page of Charts
+2023-09-25 10:42:35.193 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to get all Charts
+2023-09-25 10:42:35.220 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.226 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to update Chart : Chart{id=3, name='BBBBBBBBBB', shared='true'}
+2023-09-25 10:42:35.226 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to save Chart : Chart{id=3, name='BBBBBBBBBB', shared='true'}
+2023-09-25 10:42:35.256 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.259 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.286 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to update Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.286 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.287 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to save Chart : Chart{id=null, name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.385 DEBUG 1183189 --- [           main]o.p.v.w.r.ChartResource                  : REST request to get Chart : 6
+2023-09-25 10:42:35.385 DEBUG 1183189 --- [           main]o.p.v.s.ChartService                     : Request to get Chart : 6
+2023-09-25 10:42:35.464 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to get a page of Files
+2023-09-25 10:42:35.466 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to get all Files
+2023-09-25 10:42:35.491 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.497 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to update File : File{id=2, type='STATE', name='BBBBBBBBBB', shared='true'}
+2023-09-25 10:42:35.497 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to save File : File{id=2, type='STATE', name='BBBBBBBBBB', shared='true'}
+2023-09-25 10:42:35.550 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to get File : 3
+2023-09-25 10:42:35.550 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to get File : 3
+2023-09-25 10:42:35.591 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to get File : 9223372036854775807
+2023-09-25 10:42:35.591 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to get File : 9223372036854775807
+2023-09-25 10:42:35.642 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.643 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.707 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.710 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to delete File : 5
+2023-09-25 10:42:35.711 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to get File : 5
+2023-09-25 10:42:35.711 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to delete File : File{id=5, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.737 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to update File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.738 DEBUG 1183189 --- [           main]o.p.v.w.r.FileResource                   : REST request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.738 DEBUG 1183189 --- [           main]o.p.v.s.FileService                      : Request to save File : File{id=null, type='TRACE', name='AAAAAAAAAA', shared='false'}
+2023-09-25 10:42:35.828 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to get a page of Games
+2023-09-25 10:42:35.831 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to get all Games
+2023-09-25 10:42:35.875 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:35.882 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to update Game : Game{id=2, type='SIM', name='BBBBBBBBBB', shared='true', date='2023-09-25T15:42:35Z[UTC]', brokers='BBBBBBBBBB'}
+2023-09-25 10:42:35.882 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to save Game : Game{id=2, type='SIM', name='BBBBBBBBBB', shared='true', date='2023-09-25T15:42:35Z[UTC]', brokers='BBBBBBBBBB'}
+2023-09-25 10:42:35.911 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to get Game : 3
+2023-09-25 10:42:35.911 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to get Game : 3
+2023-09-25 10:42:35.966 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to get Game : 9223372036854775807
+2023-09-25 10:42:35.966 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to get Game : 9223372036854775807
+2023-09-25 10:42:36.023 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.024 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.077 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.080 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to delete Game : 5
+2023-09-25 10:42:36.081 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to get Game : 5
+2023-09-25 10:42:36.081 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to delete Game : Game{id=5, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.108 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to update Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.108 DEBUG 1183189 --- [           main]o.p.v.w.r.GameResource                   : REST request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.109 DEBUG 1183189 --- [           main]o.p.v.s.GameService                      : Request to save Game : Game{id=null, type='BOOT', name='AAAAAAAAAA', shared='false', date='1970-01-01T00:00Z[UTC]', brokers='AAAAAAAAAA'}
+2023-09-25 10:42:36.137 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to get Graph : 9223372036854775807
+2023-09-25 10:42:36.139 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to get Graph : 9223372036854775807
+2023-09-25 10:42:36.212 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.215 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to delete Graph : 1
+2023-09-25 10:42:36.215 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to get Graph : 1
+2023-09-25 10:42:36.216 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to delete Graph : Graph{id=1, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.242 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to get a page of Graphs
+2023-09-25 10:42:36.242 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to get all Graphs
+2023-09-25 10:42:36.266 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.271 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to update Graph : Graph{id=3, name='BBBBBBBBBB', type='BAR', shared='true'}
+2023-09-25 10:42:36.271 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to save Graph : Graph{id=3, name='BBBBBBBBBB', type='BAR', shared='true'}
+2023-09-25 10:42:36.298 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.299 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.326 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to update Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.326 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.327 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to save Graph : Graph{id=null, name='AAAAAAAAAA', type='LINE', shared='false'}
+2023-09-25 10:42:36.432 DEBUG 1183189 --- [           main]o.p.v.w.r.GraphResource                  : REST request to get Graph : 6
+2023-09-25 10:42:36.432 DEBUG 1183189 --- [           main]o.p.v.s.GraphService                     : Request to get Graph : 6
+2023-09-25 10:42:36.448 DEBUG 1183189 --- [           main]o.p.v.w.r.UserResource                   : REST request to get User : unknown
+2023-09-25 10:42:36.464 DEBUG 1183189 --- [           main]o.p.v.w.r.UserResource                   : REST request to get User : admin
+2023-09-25 10:42:36.566 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to get a page of Views
+2023-09-25 10:42:36.568 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to get all Views
+2023-09-25 10:42:36.591 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.596 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to update View : View{id=2, name='B', graphs='2', shared='true'}
+2023-09-25 10:42:36.596 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to save View : View{id=2, name='B', graphs='2', shared='true'}
+2023-09-25 10:42:36.620 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to get View : 3
+2023-09-25 10:42:36.620 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to get View : 3
+2023-09-25 10:42:36.643 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to get View : 9223372036854775807
+2023-09-25 10:42:36.643 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to get View : 9223372036854775807
+2023-09-25 10:42:36.668 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to save View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.669 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.739 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to save View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.742 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to delete View : 5
+2023-09-25 10:42:36.742 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to get View : 5
+2023-09-25 10:42:36.742 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to delete View : View{id=5, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.768 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to update View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.768 DEBUG 1183189 --- [           main]o.p.v.w.r.ViewResource                   : REST request to save View : View{id=null, name='A', graphs='1', shared='false'}
+2023-09-25 10:42:36.768 DEBUG 1183189 --- [           main]o.p.v.s.ViewService                      : Request to save View : View{id=null, name='A', graphs='1', shared='false'}

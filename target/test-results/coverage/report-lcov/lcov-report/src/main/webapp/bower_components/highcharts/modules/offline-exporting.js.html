@@ -1,0 +1,149 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/main/webapp/bower_components/highcharts/modules/offline-exporting.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../../../../index.html">All files</a> / <a href="index.html">src/main/webapp/bower_components/highcharts/modules</a> offline-exporting.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">14.78% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>30/203</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">8.4% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>11/131</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">13.04% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>6/46</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">71.43% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>10/14</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*
+ Highcharts JS v7.2.2 (2020-08-24)
+&nbsp;
+ Client side exporting module
+&nbsp;
+ (c) 2015-2019 Torstein Honsi / Oystein Moseng
+&nbsp;
+ License: www.highcharts.com/license
+*/
+(function(a){"object"===typeof module&amp;&amp;<span class="branch-1 cbranch-no" title="branch not covered" >module.exports?</span>(<span class="branch-0 cbranch-no" title="branch not covered" >a["default"]=a,module.exports=a)</span>:"function"===typeof define&amp;&amp;<span class="branch-1 cbranch-no" title="branch not covered" >define.amd?<span class="branch-0 cbranch-no" title="branch not covered" ></span>define("highcharts/modules/offline-exporting",["highcharts","highcharts/modules/exporting"],<span class="fstat-no" title="function not covered" >fu</span>nction(f){<span class="cstat-no" title="statement not covered" >a(f);<span class="cstat-no" title="statement not covered" >a</span>.Highcharts=f;<span class="cstat-no" title="statement not covered" >r</span>eturn a}</span>):</span>a("undefined"!==typeof Highcharts?Highcharts:<span class="branch-1 cbranch-no" title="branch not covered" >void 0)</span>})(function(a){function f(b,d,a,x){b.hasOwnProperty(d)||(b[d]=x.apply(null,a))}a=a?a._modules:<span class="branch-1 cbranch-no" title="branch not covered" >{};</span>f(a,"mixins/download-url.js",[a["parts/Globals.js"]],function(b){var d=b.win,a=d.navigator,
+x=d.document,f=d.URL||<span class="branch-1 cbranch-no" title="branch not covered" >d.webkitURL|</span>|<span class="branch-2 cbranch-no" title="branch not covered" >d,</span>g=/Edge\/\d+/.test(a.userAgent);b.dataURLtoBlob=<span class="fstat-no" title="function not covered" >fu</span>nction(b){<span class="cstat-no" title="statement not covered" >if((b=b.match(/data:([^;]*)(;base64)?,([0-9A-Za-z+/]+)/))&amp;&amp;3&lt;b.length&amp;&amp;d.atob&amp;&amp;d.ArrayBuffer&amp;&amp;d.Uint8Array&amp;&amp;d.Blob&amp;&amp;f.createObjectURL){var a=<span class="cstat-no" title="statement not covered" >d.atob(b[3]),</span>e=<span class="cstat-no" title="statement not covered" >new d.ArrayBuffer(a.length);<span class="cstat-no" title="statement not covered" ></span>e=new d.Uint8Array(e);<span class="cstat-no" title="statement not covered" >f</span>or(var g=<span class="cstat-no" title="statement not covered" >0;</span>g&lt;e.length;++g)<span class="cstat-no" title="statement not covered" >e[g]=a.charCodeAt(g);<span class="cstat-no" title="statement not covered" >b</span></span>=new d.Blob([e],{type:b[1]});<span class="cstat-no" title="statement not covered" >r</span>eturn f.createObjectURL(b)}</span>}</span>;b.downloadURL=<span class="fstat-no" title="function not covered" >fu</span>nction(e,f){var l=<span class="cstat-no" title="statement not covered" >x.createElement("a");<span class="cstat-no" title="statement not covered" ></span>if("string"===typeof e||e instanceof</span>
+String||!a.msSaveOrOpenBlob){<span class="cstat-no" title="statement not covered" >if(g||2E6&lt;e.length)<span class="cstat-no" title="statement not covered" >if(e=b.dataURLtoBlob(e),!e)<span class="cstat-no" title="statement not covered" >throw Error("Failed to convert to blob");<span class="cstat-no" title="statement not covered" >i</span></span></span>f(void 0!==l.download)<span class="cstat-no" title="statement not covered" >l.href=e,l.download=f,x.body.appendChild(l),l.click(),x.body.removeChild(l);e</span>lse <span class="cstat-no" title="statement not covered" >try{var p=<span class="cstat-no" title="statement not covered" >d.open(e,"chart");<span class="cstat-no" title="statement not covered" ></span>if(void 0===p||null===p)<span class="cstat-no" title="statement not covered" >throw Error("Failed to open window");}</span></span>catch(A){<span class="cstat-no" title="statement not covered" >d.location.href=e}</span>}</span></span>else <span class="cstat-no" title="statement not covered" >a.msSaveOrOpenBlob(e,f)}</span>});f(a,"modules/offline-exporting.src.js",[a["parts/Globals.js"],a["parts/Utilities.js"]],function(b,a){function <span class="fstat-no" title="function not covered" >d(</span>a,d){var k=<span class="cstat-no" title="statement not covered" >y.getElementsByTagName("head")[0],</span>
+c=<span class="cstat-no" title="statement not covered" >y.createElement("script");<span class="cstat-no" title="statement not covered" ></span>c.type="text/javascript";<span class="cstat-no" title="statement not covered" >c</span>.src=a;<span class="cstat-no" title="statement not covered" >c</span>.onload=d;<span class="cstat-no" title="statement not covered" >c</span>.onerror=<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >b.error("Error loading script "+a)}</span>;<span class="cstat-no" title="statement not covered" >k</span>.appendChild(c)}</span>var f=a.extend,D=b.addEvent;a=b.merge;var g=b.win,e=g.navigator,y=g.document,l=g.URL||<span class="branch-1 cbranch-no" title="branch not covered" >g.webkitURL|</span>|<span class="branch-2 cbranch-no" title="branch not covered" >g,</span>p=/Edge\/|Trident\/|MSIE /.test(e.userAgent),A=p?<span class="branch-0 cbranch-no" title="branch not covered" >150:</span>0;b.CanVGRenderer={};b.svgToDataUrl=<span class="fstat-no" title="function not covered" >fu</span>nction(b){var a=<span class="cstat-no" title="statement not covered" >-1&lt;e.userAgent.indexOf("WebKit")&amp;&amp;0&gt;e.userAgent.indexOf("Chrome");<span class="cstat-no" title="statement not covered" ></span>try{<span class="cstat-no" title="statement not covered" >if(!a&amp;&amp;0&gt;e.userAgent.toLowerCase().indexOf("firefox"))<span class="cstat-no" title="statement not covered" >return l.createObjectURL(new g.Blob([b],</span></span></span>
+{type:"image/svg+xml;charset-utf-16"}))}catch(k){}<span class="cstat-no" title="statement not covered" >return"data:image/svg+xml;charset=UTF-8,"+encodeURIComponent(b)}</span>;b.imageToDataUrl=<span class="fstat-no" title="function not covered" >fu</span>nction(b,a,k,c,d,e,f,n,m){var h=<span class="cstat-no" title="statement not covered" >new g.Image,</span>u=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >setTimeout(<span class="fstat-no" title="function not covered" >fu</span>nction(){var e=<span class="cstat-no" title="statement not covered" >y.createElement("canvas"),</span>g=<span class="cstat-no" title="statement not covered" >e.getContext&amp;&amp;e.getContext("2d");<span class="cstat-no" title="statement not covered" ></span>try{<span class="cstat-no" title="statement not covered" >if(g){<span class="cstat-no" title="statement not covered" >e.height=h.height*c;<span class="cstat-no" title="statement not covered" >e</span>.width=h.width*c;<span class="cstat-no" title="statement not covered" >g</span>.drawImage(h,0,0,e.width,e.height);<span class="cstat-no" title="statement not covered" >t</span>ry{var w=<span class="cstat-no" title="statement not covered" >e.toDataURL(a);<span class="cstat-no" title="statement not covered" ></span>d(w,a,k,c)}</span>catch(B){<span class="cstat-no" title="statement not covered" >t(b,a,k,c)}</span>}</span>else <span class="cstat-no" title="statement not covered" >f(b,a,k,c)}</span></span>finally{<span class="cstat-no" title="statement not covered" >m&amp;&amp;m(b,a,k,c)}</span>}</span>,A)}</span>,</span>q=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >n(b,a,k,c);<span class="cstat-no" title="statement not covered" >m</span>&amp;&amp;m(b,a,k,c)}</span>;</span>
+var t=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >h=new g.Image;<span class="cstat-no" title="statement not covered" >t</span>=e;<span class="cstat-no" title="statement not covered" >h</span>.crossOrigin="Anonymous";<span class="cstat-no" title="statement not covered" >h</span>.onload=u;<span class="cstat-no" title="statement not covered" >h</span>.onerror=q;<span class="cstat-no" title="statement not covered" >h</span>.src=b}</span>;<span class="cstat-no" title="statement not covered" ></span>h.onload=u;<span class="cstat-no" title="statement not covered" >h</span>.onerror=q;<span class="cstat-no" title="statement not covered" >h</span>.src=b}</span>;b.downloadSVGLocal=<span class="fstat-no" title="function not covered" >fu</span>nction(a,f,k,c){function <span class="fstat-no" title="function not covered" >t(</span>a,b){<span class="cstat-no" title="statement not covered" >b=new g.jsPDF("l","pt",[a.width.baseVal.value+2*b,a.height.baseVal.value+2*b]);<span class="cstat-no" title="statement not covered" >[</span>].forEach.call(a.querySelectorAll('*[visibility="hidden"]'),<span class="fstat-no" title="function not covered" >fu</span>nction(b){<span class="cstat-no" title="statement not covered" >b.parentNode.removeChild(b)}</span>);<span class="cstat-no" title="statement not covered" >g</span>.svg2pdf(a,b,{removeInvalid:!0});<span class="cstat-no" title="statement not covered" >r</span>eturn b.output("datauristring")}</span>function <span class="fstat-no" title="function not covered" >u(</span>){<span class="cstat-no" title="statement not covered" >m.innerHTML=a;v</span>ar e=<span class="cstat-no" title="statement not covered" >m.getElementsByTagName("text"),</span>d;<span class="cstat-no" title="statement not covered" >[].forEach.call(e,</span>
+<span class="fstat-no" title="function not covered" >fu</span>nction(b){<span class="cstat-no" title="statement not covered" >["font-family","font-size"].forEach(<span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >for(var c=<span class="cstat-no" title="statement not covered" >b;</span>c&amp;&amp;c!==m;){<span class="cstat-no" title="statement not covered" >if(c.style[a]){<span class="cstat-no" title="statement not covered" >b.style[a]=c.style[a];<span class="cstat-no" title="statement not covered" >b</span>reak}<span class="cstat-no" title="statement not covered" ></span>c</span>=c.parentNode}</span>}</span>);<span class="cstat-no" title="statement not covered" >b</span>.style["font-family"]=b.style["font-family"]&amp;&amp;b.style["font-family"].split(" ").splice(-1);<span class="cstat-no" title="statement not covered" >d</span>=b.getElementsByTagName("title");<span class="cstat-no" title="statement not covered" >[</span>].forEach.call(d,<span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >b.removeChild(a)}</span>)}</span>);<span class="cstat-no" title="statement not covered" >e=t(m.firstChild,0);<span class="cstat-no" title="statement not covered" >t</span>ry{<span class="cstat-no" title="statement not covered" >b.downloadURL(e,z),c&amp;&amp;c()}</span>catch(E){<span class="cstat-no" title="statement not covered" >k(E)}</span>}</span>var q=<span class="cstat-no" title="statement not covered" >!0,</span>n=<span class="cstat-no" title="statement not covered" >f.libURL||b.getOptions().exporting.libURL,</span>m=<span class="cstat-no" title="statement not covered" >y.createElement("div"),</span>h=<span class="cstat-no" title="statement not covered" >f.type||"image/png",</span>z=<span class="cstat-no" title="statement not covered" >(f.filename||</span>
+"chart")+"."+("image/svg+xml"===h?"svg":h.split("/")[1]),p=<span class="cstat-no" title="statement not covered" >f.scale||1;<span class="cstat-no" title="statement not covered" ></span>n="/"!==n.slice(-1)?n+"/":n;<span class="cstat-no" title="statement not covered" >i</span>f("image/svg+xml"===h)<span class="cstat-no" title="statement not covered" >try{<span class="cstat-no" title="statement not covered" >if("undefined"!==typeof e.msSaveOrOpenBlob){var C=<span class="cstat-no" title="statement not covered" >new MSBlobBuilder;<span class="cstat-no" title="statement not covered" ></span>C.append(a);v</span>ar r=<span class="cstat-no" title="statement not covered" >C.getBlob("image/svg+xml")}</span>else <span class="cstat-no" title="statement not covered" >r=b.svgToDataUrl(a);<span class="cstat-no" title="statement not covered" >b</span></span>.downloadURL(r,z);<span class="cstat-no" title="statement not covered" >c</span>&amp;&amp;c()}</span>catch(w){<span class="cstat-no" title="statement not covered" >k(w)}</span>e</span>lse <span class="cstat-no" title="statement not covered" >if("application/pdf"===h)<span class="cstat-no" title="statement not covered" >g.jsPDF&amp;&amp;g.svg2pdf?u():(q=!0,d(n+"jspdf.js",<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >d(n+"svg2pdf.js",<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >u()}</span>)}</span>));e</span>lse{<span class="cstat-no" title="statement not covered" >r=b.svgToDataUrl(a);v</span>ar v=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >try{<span class="cstat-no" title="statement not covered" >l.revokeObjectURL(r)}</span>catch(w){}}</span>;</span></span></span>
+<span class="cstat-no" title="statement not covered" >b.imageToDataUrl(r,h,{},p,<span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >try{<span class="cstat-no" title="statement not covered" >b.downloadURL(a,z),c&amp;&amp;c()}</span>catch(B){<span class="cstat-no" title="statement not covered" >k(B)}</span>}</span>,<span class="fstat-no" title="function not covered" >fu</span>nction(){var f=<span class="cstat-no" title="statement not covered" >y.createElement("canvas"),</span>u=<span class="cstat-no" title="statement not covered" >f.getContext("2d"),</span>t=<span class="cstat-no" title="statement not covered" >a.match(/^&lt;svg[^&gt;]*width\s*=\s*"?(\d+)"?[^&gt;]*&gt;/)[1]*p,</span>m=<span class="cstat-no" title="statement not covered" >a.match(/^&lt;svg[^&gt;]*height\s*=\s*"?(\d+)"?[^&gt;]*&gt;/)[1]*p,</span>l=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >u.drawSvg(a,0,0,t,m);<span class="cstat-no" title="statement not covered" >t</span>ry{<span class="cstat-no" title="statement not covered" >b.downloadURL(e.msSaveOrOpenBlob?f.msToBlob():f.toDataURL(h),z),c&amp;&amp;c()}</span>catch(F){<span class="cstat-no" title="statement not covered" >k(F)}</span>finally{<span class="cstat-no" title="statement not covered" >v()}</span>}</span>;<span class="cstat-no" title="statement not covered" ></span>f.width=t;<span class="cstat-no" title="statement not covered" >f</span>.height=m;<span class="cstat-no" title="statement not covered" >g</span>.canvg?l():(q=!0,d(n+"rgbcolor.js",<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >d(n+"canvg.js",<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >l()}</span>)}</span>))}</span>,</span>
+k,k,<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >q&amp;&amp;v()}</span>)}};b.Chart.prototype.getSVGForLocalExport=<span class="fstat-no" title="function not covered" >fu</span>nction(a,e,d,c){var f=<span class="cstat-no" title="statement not covered" >this,</span>k=<span class="cstat-no" title="statement not covered" >0,</span>g,n,m,h,l=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >k===q.length&amp;&amp;c(f.sanitizeSVG(g.innerHTML,n))}</span>,</span>p=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(b,a,c){<span class="cstat-no" title="statement not covered" >++k;<span class="cstat-no" title="statement not covered" >c</span>.imageElement.setAttributeNS("http://www.w3.org/1999/xlink","href",b);<span class="cstat-no" title="statement not covered" >l</span>()}</span>;<span class="cstat-no" title="statement not covered" ></span>f.unbindGetSVG=D(f,"getSVG",<span class="fstat-no" title="function not covered" >fu</span>nction(b){<span class="cstat-no" title="statement not covered" >n=b.chartCopy.options;<span class="cstat-no" title="statement not covered" >g</span>=b.chartCopy.container.cloneNode(!0)}</span>);<span class="cstat-no" title="statement not covered" >f</span>.getSVGForExport(a,e);v</span>ar q=<span class="cstat-no" title="statement not covered" >g.getElementsByTagName("image");<span class="cstat-no" title="statement not covered" ></span>try{<span class="cstat-no" title="statement not covered" >if(!q.length){<span class="cstat-no" title="statement not covered" >c(f.sanitizeSVG(g.innerHTML,n));<span class="cstat-no" title="statement not covered" >r</span>eturn}</span>v</span>ar r=<span class="cstat-no" title="statement not covered" >0;<span class="cstat-no" title="statement not covered" ></span>for(m=q.length;r&lt;</span></span>
+m;++r){var v=<span class="cstat-no" title="statement not covered" >q[r];<span class="cstat-no" title="statement not covered" ></span>(h=v.getAttributeNS("http://www.w3.org/1999/xlink","href"))?b.imageToDataUrl(h,"image/png",{imageElement:v},a.scale,p,d,d,d):(++k,v.parentNode.removeChild(v),l())}</span>}catch(w){<span class="cstat-no" title="statement not covered" >d(w)}<span class="cstat-no" title="statement not covered" ></span>f.unbindGetSVG()}</span>;b.Chart.prototype.exportChartLocal=<span class="fstat-no" title="function not covered" >fu</span>nction(a,e){var d=<span class="cstat-no" title="statement not covered" >this,</span>c=<span class="cstat-no" title="statement not covered" >b.merge(d.options.exporting,a),</span>g=<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >!1===c.fallbackToExportServer?c.error?c.error(c,a):b.error(28,!0):d.exportChart(c)}</span>;<span class="cstat-no" title="statement not covered" ></span>a=<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >return[].some.call(d.container.getElementsByTagName("image"),<span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >a=a.getAttribute("href");</span></span></span>
+<span class="cstat-no" title="statement not covered" >return""!==a&amp;&amp;0!==a.indexOf("data:")}</span>)};<span class="cstat-no" title="statement not covered" >p&amp;&amp;d.styledMode&amp;&amp;(b.SVGRenderer.prototype.inlineWhitelist=[/^blockSize/,/^border/,/^caretColor/,/^color/,/^columnRule/,/^columnRuleColor/,/^cssFloat/,/^cursor/,/^fill$/,/^fillOpacity/,/^font/,/^inlineSize/,/^length/,/^lineHeight/,/^opacity/,/^outline/,/^parentRule/,/^rx$/,/^ry$/,/^stroke/,/^textAlign/,/^textAnchor/,/^textDecoration/,/^transform/,/^vectorEffect/,/^visibility/,/^x$/,/^y$/]);<span class="cstat-no" title="statement not covered" >p</span>&amp;&amp;("application/pdf"===c.type||d.container.getElementsByTagName("image").length&amp;&amp;</span>
+"image/svg+xml"!==c.type)||"application/pdf"===c.type&amp;&amp;a()?g("Image type not supported for this chart/browser."):d.getSVGForLocalExport(c,e,g,<span class="fstat-no" title="function not covered" >fu</span>nction(a){<span class="cstat-no" title="statement not covered" >-1&lt;a.indexOf("&lt;foreignObject")&amp;&amp;"image/svg+xml"!==c.type?g("Image type not supportedfor charts with embedded HTML"):b.downloadSVGLocal(a,f({filename:d.getFilename()},c),g)}</span>)};a(!0,b.getOptions().exporting,{libURL:"https://code.highcharts.com/7.2.2/lib/",menuItemDefinitions:{downloadPNG:{textKey:"downloadPNG",onclick:<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >this.exportChartLocal()}</span>},
+downloadJPEG:{textKey:"downloadJPEG",onclick:<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >this.exportChartLocal({type:"image/jpeg"})}</span>},downloadSVG:{textKey:"downloadSVG",onclick:<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >this.exportChartLocal({type:"image/svg+xml"})}</span>},downloadPDF:{textKey:"downloadPDF",onclick:<span class="fstat-no" title="function not covered" >fu</span>nction(){<span class="cstat-no" title="statement not covered" >this.exportChartLocal({type:"application/pdf"})}</span>}}})});f(a,"masters/modules/offline-exporting.src.js",[],function(){})});
+//# sourceMappingURL=offline-exporting.js.map</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Mon Sep 25 2023 10:42:57 GMT-0500 (Central Daylight Time)
+            </div>
+        </div>
+        <script src="../../../../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../../../../sorter.js"></script>
+        <script src="../../../../../../block-navigation.js"></script>
+    </body>
+</html>
+    

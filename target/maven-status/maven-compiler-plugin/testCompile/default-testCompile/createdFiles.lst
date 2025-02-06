@@ -1,0 +1,12 @@
+org/powertac/visualizer/web/rest/FileResourceIntTest.class
+org/powertac/visualizer/web/rest/UserResourceIntTest.class
+org/powertac/visualizer/web/rest/ChartResourceIntTest.class
+org/powertac/visualizer/web/rest/TestUtil$ZonedDateTimeMatcher.class
+org/powertac/visualizer/web/rest/AccountResourceIntTest.class
+org/powertac/visualizer/security/SecurityUtilsUnitTest.class
+org/powertac/visualizer/web/rest/AuditResourceIntTest.class
+org/powertac/visualizer/service/UserServiceIntTest.class
+org/powertac/visualizer/web/rest/GraphResourceIntTest.class
+org/powertac/visualizer/web/rest/ViewResourceIntTest.class
+org/powertac/visualizer/web/rest/TestUtil.class
+org/powertac/visualizer/web/rest/GameResourceIntTest.class

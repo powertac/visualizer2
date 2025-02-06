@@ -1,0 +1,40 @@
+{
+  "name": "sockjs-client",
+  "homepage": "http://sockjs.org",
+  "authors": [
+    "Bryce Kahle <bkahle@gmail.com>"
+  ],
+  "description": "SockJS-client is a browser JavaScript library that provides a WebSocket-like object.",
+  "main": "dist/sockjs.js",
+  "keywords": [
+    "realtime",
+    "websockets",
+    "sockjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sockjs/sockjs-client.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "build.sh",
+    "gulpfile.js",
+    "lib",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.3.0",
+  "_release": "1.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.3.0",
+    "commit": "1d79d102c80a03f7b54786955146ea1bffbabc55"
+  },
+  "_source": "https://github.com/sockjs/sockjs-client.git",
+  "_target": "1.3.0",
+  "_originalSource": "sockjs-client"
+}
